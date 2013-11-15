@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APACHE_CONFIG_PATH="/usr/local/etc/apache24/Includes/"
+APACHE_CONFIG_PATH="/usr/local/etc/apache24/Includes"
 
 if [ -d "$APACHE_CONFIG_PATH" ]; then
     cp -f PiUtility-cgi.conf $APACHE_CONFIG_PATH
